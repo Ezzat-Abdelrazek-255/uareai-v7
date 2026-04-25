@@ -251,11 +251,21 @@ a:focus-visible {
   font-style: normal;
   line-height: 1.05;
   letter-spacing: -0.02em;
-  font-size: clamp(2.75rem, 1.6rem + 4.6vw, 5.5rem);
+  font-size: clamp(2rem, 1.2rem + 3.4vw, 4rem);
 }
 
 .headings__main em {
   font-style: italic;
+}
+
+.headings__u {
+  display: inline-block;
+  height: 0.62em;
+  width: auto;
+  vertical-align: baseline;
+  transform: translateY(0.04em);
+  margin-right: 0.1em;
+  line-height: 1;
 }
 
 .headings__subtitle {
